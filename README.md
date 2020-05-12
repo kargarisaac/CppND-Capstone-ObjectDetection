@@ -1,15 +1,7 @@
 # CPPND: Capstone Hello World Repo
 
-
-
-
-
-First example          |  Second example
-:-------------------:|:-------------------------:
-<img src="/images/detected_img.jpg" height="300px" width="400px" >
-  |  <img src="/images/detected_img2.jpg" height="300px" width="400px" >
-
-
+<img src="/images/detected_img.jpg" height="250px" width="400px" >
+<img src="/images/detected_img2.jpg" height="300px" width="400px" >
 
 This is the Capstone project for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
 
