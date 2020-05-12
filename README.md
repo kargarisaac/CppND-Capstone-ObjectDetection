@@ -1,7 +1,4 @@
-# CPPND: Capstone Hello World Repo
-
-<img src="/images/detected_img.jpg" height="250px" width="400px" >
-<img src="/images/detected_img2.jpg" height="300px" width="400px" >
+# CPPND: Capstone Object Detector Repo
 
 This is the Capstone project for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
 
@@ -24,4 +21,17 @@ In this project I implemented an object detector using openCV and YOLO pre-train
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./CarDetector <image name> <object name>`. You can set different images and objects in the command like this: `./CarDetector images/img.jpg car`
+4. Run it: `./CarDetector <image name> <object name>`. 
+You can set different images and objects in the command like this: 
+
+`./CarDetector images/img.jpg car`
+
+<img src="/images/detected_img.jpg" height="250px" width="400px" >
+
+`./CarDetector images/img2.jpg car`
+
+<img src="/images/detected_img2.jpg" height="300px" width="400px" >
+
+`./CarDetector images/img3.jpg dog`
+
+<img src="/images/detected_img3.jpg" height="300px" width="400px" >
