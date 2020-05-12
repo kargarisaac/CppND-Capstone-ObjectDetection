@@ -36,10 +36,9 @@ int main(int argc, char** argv)
         }
     } else
     {
-        imageFile = "img.jpg";
+        imageFile = "images/img.jpg";
         objectName = "car";
     }
-
 
     Mat frame = imread(imageFile);
     Mat inputBlob = blobFromImage(frame, 1 / 255.F, Size(416, 416), Scalar(), true, false); //Creates 4-dimensional blob from image. Optionally resizes and crops image from center, subtract mean values, scales values by scalefactor, swap Blue and Red channels
@@ -100,7 +99,7 @@ int main(int argc, char** argv)
     }
 
     // Show all the cars
-    imshow("Car Detector Result", frame);
+    imshow("Object Detector Result", frame);
 //    imwrite("detected_img3.jpg", frame );
     waitKey(0);
 }

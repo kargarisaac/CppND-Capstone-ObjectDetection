@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/CarDetector.dir/DependInfo.cmake"
+  "CMakeFiles/ObjectDetector.dir/DependInfo.cmake"
   )

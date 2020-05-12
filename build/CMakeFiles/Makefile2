@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/isaac/codes/CppND/CppND-Capstone-ObjectDetection/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CarDetector.dir/all
+all: CMakeFiles/ObjectDetector.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CarDetector.dir/clean
+clean: CMakeFiles/ObjectDetector.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CarDetector.dir
+# Target rules for target CMakeFiles/ObjectDetector.dir
 
 # All Build rule for target.
-CMakeFiles/CarDetector.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isaac/codes/CppND/CppND-Capstone-ObjectDetection/build/CMakeFiles --progress-num=1,2,3 "Built target CarDetector"
-.PHONY : CMakeFiles/CarDetector.dir/all
+CMakeFiles/ObjectDetector.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isaac/codes/CppND/CppND-Capstone-ObjectDetection/build/CMakeFiles --progress-num=1,2,3 "Built target ObjectDetector"
+.PHONY : CMakeFiles/ObjectDetector.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CarDetector.dir/rule: cmake_check_build_system
+CMakeFiles/ObjectDetector.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/codes/CppND/CppND-Capstone-ObjectDetection/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CarDetector.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ObjectDetector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/codes/CppND/CppND-Capstone-ObjectDetection/build/CMakeFiles 0
-.PHONY : CMakeFiles/CarDetector.dir/rule
+.PHONY : CMakeFiles/ObjectDetector.dir/rule
 
 # Convenience name for target.
-CarDetector: CMakeFiles/CarDetector.dir/rule
+ObjectDetector: CMakeFiles/ObjectDetector.dir/rule
 
-.PHONY : CarDetector
+.PHONY : ObjectDetector
 
 # clean rule for target.
-CMakeFiles/CarDetector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/clean
-.PHONY : CMakeFiles/CarDetector.dir/clean
+CMakeFiles/ObjectDetector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/clean
+.PHONY : CMakeFiles/ObjectDetector.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

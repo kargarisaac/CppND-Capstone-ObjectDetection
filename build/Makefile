@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CarDetector
+# Target rules for targets named ObjectDetector
 
 # Build rule for target.
-CarDetector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarDetector
-.PHONY : CarDetector
+ObjectDetector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ObjectDetector
+.PHONY : ObjectDetector
 
 # fast build rule for target.
-CarDetector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/build
-.PHONY : CarDetector/fast
+ObjectDetector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/build
+.PHONY : ObjectDetector/fast
 
 src/YoloV3.o: src/YoloV3.cpp.o
 
@@ -149,7 +149,7 @@ src/YoloV3.o: src/YoloV3.cpp.o
 
 # target to build an object file
 src/YoloV3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/YoloV3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/YoloV3.cpp.o
 .PHONY : src/YoloV3.cpp.o
 
 src/YoloV3.i: src/YoloV3.cpp.i
@@ -158,7 +158,7 @@ src/YoloV3.i: src/YoloV3.cpp.i
 
 # target to preprocess a source file
 src/YoloV3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/YoloV3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/YoloV3.cpp.i
 .PHONY : src/YoloV3.cpp.i
 
 src/YoloV3.s: src/YoloV3.cpp.s
@@ -167,7 +167,7 @@ src/YoloV3.s: src/YoloV3.cpp.s
 
 # target to generate assembly for a file
 src/YoloV3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/YoloV3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/YoloV3.cpp.s
 .PHONY : src/YoloV3.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -176,7 +176,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -185,7 +185,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -194,7 +194,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarDetector.dir/build.make CMakeFiles/CarDetector.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObjectDetector.dir/build.make CMakeFiles/ObjectDetector.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -205,7 +205,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CarDetector"
+	@echo "... ObjectDetector"
 	@echo "... src/YoloV3.o"
 	@echo "... src/YoloV3.i"
 	@echo "... src/YoloV3.s"
