@@ -101,5 +101,6 @@ int main(int argc, char** argv)
 
     // Show all the cars
     imshow("Car Detector Result", frame);
+//    imwrite("detected_img2.jpg", frame );
     waitKey(0);
 }
