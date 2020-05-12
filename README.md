@@ -34,4 +34,4 @@ You can set different images and objects in the command like this:
 
 `./CarDetector images/img3.jpg dog`
 
-<img src="/images/detected_img3.jpg" height="300px" width="400px" >
+<img src="/images/detected_img3.jpg" height="300px" width="500px" >
