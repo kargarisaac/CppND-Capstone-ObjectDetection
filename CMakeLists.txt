@@ -1,10 +1,7 @@
-cmake_minimum_required(VERSION 3.7)
-
-add_definitions(-std=c++17)
-
-set(CXX_FLAGS "-Wall")
-set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
-
-project(HelloWorld)
-
-add_executable(HelloWorld src/main.cpp)
+cmake_minimum_required( VERSION 3.7 )
+add_definitions( -std=c++17 )
+project( CarDetector )
+find_package( OpenCV REQUIRED NO_MODULE PATHS /usr/local/lib/cmake/opencv4 NO_DEFAULT_PATH)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( CarDetector src/main.cpp src/YoloV3.cpp src/YoloV3.h)
+target_link_libraries( CarDetector ${OpenCV_LIBS} )
